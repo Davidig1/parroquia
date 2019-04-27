@@ -22,3 +22,10 @@ Route::get('/quienessomos', function () {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+
+
+
+
+//Eventos
+Route::get('/eventos', 'EventController@index');
