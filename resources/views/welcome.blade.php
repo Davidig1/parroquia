@@ -56,25 +56,25 @@
             <div class="top-menu">
                 <div class="row">
                     <div class="col-md-12 col-offset-0 text-center">
-                        <div id="fh5co-logo"><a href="index.html">Santa María de los Ángeles</a></div>
+                        <div id="fh5co-logo"><a href="">Santa María de los Ángeles</a></div>
                     </div>
                     <div class="col-md-12 col-md-offset-0 text-center menu-1">
                         <ul>
-                            <li class="active"><a href="index.html">Inicio</a></li>
+                            <li class="active"><a href="">Inicio</a></li>
                             <li><a href="sermones.html">Sermones</a></li>
                             <li class="has-dropdown">
                                 <a href="">Sacramentos</a>
                                 <ul class="dropdown">
-                                    <li><a href="bautizo.html">Bautizo</a></li>
-                                    <li><a href="comunion.html">Primera Comunion</a></li>
-                                    <li><a href="confirmacion.html">Confirmacion</a></li>
-                                    <li><a href="matrimonio.html">Matrimonio</a></li>
-                                    <li><a href="catequesis.html">Catequesis</a></li>
+                                    <li><a href="bautizo">Bautizo</a></li>
+                                    <li><a href="comunion">Primera Comunion</a></li>
+                                    <li><a href="confirmacion">Confirmacion</a></li>
+                                    <li><a href="matrimonio">Matrimonio</a></li>
+                                    <li><a href="catequesis">Catequesis</a></li>
                                 </ul>
                             </li>
-                            <li><a href="eventos.html">Eventos</a></li>
-                            <li><a href="quienessomos.html">Quienes Somos</a></li>
-                            <li><a href="contactenos.html">Contactenos</a></li>
+                            <li><a href="eventos">Eventos</a></li>
+                            <li><a href="quienessomos">Quienes Somos</a></li>
+                            <li><a href="contactenos">Contactenos</a></li>
                             <li><a href="{{ route('login') }}">Ingresar</a></li>
                         </ul>
                     </div>
