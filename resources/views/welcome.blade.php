@@ -56,11 +56,11 @@
             <div class="top-menu">
                 <div class="row">
                     <div class="col-md-12 col-offset-0 text-center">
-                        <div id="fh5co-logo"><a href="welcome">Santa María de los Ángeles</a></div>
+                        <div id="fh5co-logo"><a href="">Santa María de los Ángeles</a></div>
                     </div>
                     <div class="col-md-12 col-md-offset-0 text-center menu-1">
                         <ul>
-                            <li class="active"><a href="welcome">Inicio</a></li>
+                            <li class="active"><a href="">Inicio</a></li>
                             <li><a href="sermones">Sermones</a></li>
                             <li class="has-dropdown">
                                 <a href="">Sacramentos</a>
