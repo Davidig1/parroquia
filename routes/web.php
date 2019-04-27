@@ -11,12 +11,16 @@
 |
 */
 
-Route::get('/', function () {
+Route::get('/welcome', function () {
     return view('welcome');
 });
 
 Route::get('/quienessomos', function () {
     return view('quienessomos');
+});
+
+Route::get('/eventos', function () {
+    return view('eventos');
 });
 
 Auth::routes();
