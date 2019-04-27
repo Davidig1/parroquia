@@ -56,12 +56,12 @@
             <div class="top-menu">
                 <div class="row">
                     <div class="col-md-12 col-offset-0 text-center">
-                        <div id="fh5co-logo"><a href="">Santa María de los Ángeles</a></div>
+                        <div id="fh5co-logo"><a href="welcome">Santa María de los Ángeles</a></div>
                     </div>
                     <div class="col-md-12 col-md-offset-0 text-center menu-1">
                         <ul>
-                            <li class="active"><a href="">Inicio</a></li>
-                            <li><a href="sermones.html">Sermones</a></li>
+                            <li class="active"><a href="welcome">Inicio</a></li>
+                            <li><a href="sermones">Sermones</a></li>
                             <li class="has-dropdown">
                                 <a href="">Sacramentos</a>
                                 <ul class="dropdown">
@@ -96,7 +96,7 @@
                                     <div class="slider-text-inner">
                                         <h1>Mas que una parroquia una comunidad</h1>
                                             <h2>Una comunidad que busca a Jesus</h2>
-                                            <p><a class="btn btn-primary btn-learn">Ver más acerca de nuestra comunidad <i class="icon-arrow-right3"></i></a></p>
+                                            <p><a class="btn btn-primary btn-learn" href="quienessomos">Ver más acerca de nuestra comunidad <i class="icon-arrow-right3"></i></a></p>
                                     </div>
                                 </div>
                             </div>
@@ -112,7 +112,7 @@
                                     <div class="slider-text-inner">
                                         <h1>Una Comunidad que camina unida</h1>
                                             <h2>Somos una parroquia al servicio de la comunidad </h2>
-                                            <p><a class="btn btn-primary btn-learn">Ver más acerca de nuestra comunidad <i class="icon-arrow-right3"></i></a></p>
+                                            <p><a class="btn btn-primary btn-learn" href="quienessomos">Ver más acerca de nuestra comunidad <i class="icon-arrow-right3"></i></a></p>
                                     </div>
                                 </div>
                             </div>
@@ -128,7 +128,7 @@
                                     <div class="slider-text-inner text-center">
                                         <h1>Cursos para los Sacramentos</h1>
                                             <h2>A lo largo del crecimiento ver que tan importante es realizarlo </h2>
-                                            <p> <a class="btn btn-primary btn-learn">Ver más <i class="icon-arrow-right3"></i></a></p>
+                                            <p> <a class="btn btn-primary btn-learn" href="quienessomos">Ver más <i class="icon-arrow-right3"></i></a></p>
                                     </div>
                                 </div>
                             </div>
@@ -149,35 +149,35 @@
             <div class="row">
                 <div class="col-md-4 animate-box">
                     <div class="services">
-                        <a class="img-holder"><img class="img-responsive" src="santamaria/images/img-1.jpg" alt=""></a>
+                        <a href="horario" class="img-holder"><img class="img-responsive" src="santamaria/images/img-1.jpg" alt=""></a>
                         <div class="desc">
                             <h3><a>HORARIO DE MISAS</a></h3>
                             <p>Lunes: 7:00 am.<br>
                             Martes a Sábado: 7:00am. – 8:00am. y 6:00pm.<br>
                             Domingos: 8:00am – 10:00am – 11:30am – 6:00pm  y 8:00pm.</p>
-                            <a href="#">Ver Más <i class="icon-arrow-right3"></i></a>
+                            <a href="horario">Ver Más <i class="icon-arrow-right3"></i></a>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4 animate-box">
                     <div class="services">
-                        <a href="#" class="img-holder"><img class="img-responsive" src="santamaria/images/img-3.jpg" alt=""></a>
+                        <a href="horario" class="img-holder"><img class="img-responsive" src="santamaria/images/img-3.jpg" alt=""></a>
                         <div class="desc">
                             <h3><a>CONFESIONES</a></h3>
                             <p>Martes a Sábado: 6:00pm<br>
                             Domingo: Durante el horario de misas.<br><br><br></p>
-                            <a href="#">Ver Más <i class="icon-arrow-right3"></i></a>
+                            <a href="horario">Ver Más <i class="icon-arrow-right3"></i></a>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4 animate-box">
                     <div class="services">
-                        <a href="#" class="img-holder"><img class="img-responsive" src="santamaria/images/img-2.jpg" alt=""></a>
+                        <a href="horario" class="img-holder"><img class="img-responsive" src="santamaria/images/img-2.jpg" alt=""></a>
                         <div class="desc">
                             <h3><a>HORARIO DE ATENCIÓN SECRETARÍA</a></h3>
                             <p>Lunes a Viernes: De 9:00am a 1:00pm  / De 3:30 a 7:00pm<br>
                             Sábado: De 9:00am a 11:30am</p>
-                            <a href="#">Ver Más <i class="icon-arrow-right3"></i></a>
+                            <a href="horario">Ver Más <i class="icon-arrow-right3"></i></a>
                         </div>
                     </div>
                 </div>
@@ -194,7 +194,7 @@
             <div class="row">
                 <div class="col-md-4 text-center animate-box">
                     <div class="sermon-entry">
-                        <a href="#"><div class="sermon" style="background-image: url(santamaria/images/sermon-1.jpg);">
+                        <a href="bautizo"><div class="sermon" style="background-image: url(santamaria/images/sermon-1.jpg);">
                             
                         </div></a>
                         <h3>Bautizo</h3>
@@ -202,14 +202,14 @@
                 </div>
                 <div class="col-md-4 text-center animate-box">
                     <div class="sermon-entry">
-                        <a href="#"><div class="sermon" style="background-image: url(santamaria/images/sermon-3.jpg);">
+                        <a href="comunion"><div class="sermon" style="background-image: url(santamaria/images/sermon-3.jpg);">
                         </div></a>
                         <h3>Primera Comunion</h3>
                     </div>
                 </div>
                 <div class="col-md-4 text-center animate-box">
                     <div class="sermon-entry">
-                        <a href="#"><div class="sermon" style="background-image: url(santamaria/images/sermon-2.jpg);">
+                        <a href="confirmacion"><div class="sermon" style="background-image: url(santamaria/images/sermon-2.jpg);">
                         </div></a>
                         <h3>Confirmación</h3>
                     </div>
@@ -255,51 +255,51 @@
             <div class="row animate-box">
                 <div class="col-md-6 col-md-offset-3 text-center fh5co-heading">
                     <h2>Eventos de este año</h2>
-                    <p>Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. Odit ab aliquam dolor eius.</p>
+                    <p>Acompañanos a las actividades mas importantes que tendra la comunidad parroquial este año.</p>
                 </div>
             </div>
             <div class="row">
                 <div class="col-md-3 animate-box">
                     <div class="news">
-                        <a href="#" class="img-holder"><img class="img-responsive" src="santamaria/images/img-1.jpg" alt=""></a>
+                        <a href="eventos" class="img-holder"><img class="img-responsive" src="santamaria/images/img-1.jpg" alt=""></a>
                         <div class="desc">
                             <span class="date">Abril 19</span>
                             <h3><a href="#">Via Crusis</a></h3>
                             <p>Caminata desde la Capilla Amor de Dios a la Parroquia Santa Maria de los Angeles</p>
-                            <a href="#">Ver Más <i class="icon-arrow-right3"></i></a>
+                            <a href="eventos">Ver Más <i class="icon-arrow-right3"></i></a>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-3 animate-box">
                     <div class="news">
-                        <a href="#" class="img-holder"><img class="img-responsive" src="santamaria/images/img-3.jpg" alt=""></a>
+                        <a href="eventos" class="img-holder"><img class="img-responsive" src="santamaria/images/img-3.jpg" alt=""></a>
                         <div class="desc">
                             <span class="date">junio 22</span>
-                            <h3><a href="#">Aniversario de la Parroquia</a></h3>
+                            <h3><a href="eventos">Aniversario de la Parroquia</a></h3>
                             <p>Serenata en honor a la virgen del Carmen</p>
-                            <a href="#">Ver Más <i class="icon-arrow-right3"></i></a>
+                            <a href="eventos">Ver Más <i class="icon-arrow-right3"></i></a>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-3 animate-box">
                     <div class="news">
-                        <a href="#" class="img-holder"><img class="img-responsive" src="santamaria/images/img-2.jpg" alt=""></a>
+                        <a href="eventos" class="img-holder"><img class="img-responsive" src="santamaria/images/img-2.jpg" alt=""></a>
                         <div class="desc">
                             <span class="date">Octubre 19</span>
-                            <h3><a href="#">Kermesse Parroquial</a></h3>
+                            <h3><a href="eventos">Kermesse Parroquial</a></h3>
                             <p>Recaudacion de fondos para la siguiente gestion de la parroquia</p>
-                            <a href="#">Ver Más <i class="icon-arrow-right3"></i></a>
+                            <a href="eventos">Ver Más <i class="icon-arrow-right3"></i></a>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-3 animate-box">
                     <div class="news">
-                        <a href="#" class="img-holder"><img class="img-responsive" src="santamaria/images/img-4.jpg" alt=""></a>
+                        <a href="eventos" class="img-holder"><img class="img-responsive" src="santamaria/images/img-4.jpg" alt=""></a>
                         <div class="desc">
                             <span class="date">Diciembre 24</span>
-                            <h3><a href="#">Celebracion de Navidad</a></h3>
+                            <h3><a href="eventos">Celebracion de Navidad</a></h3>
                             <p>Preparacion a la celebracion del nacimiento del niño Jesus.</p>
-                            <a href="#">Ver Más <i class="icon-arrow-right3"></i></a>
+                            <a href="eventos">Ver Más <i class="icon-arrow-right3"></i></a>
                         </div>
                     </div>
                 </div>
