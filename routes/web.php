@@ -11,7 +11,7 @@
 |
 */
 
-Route::get('/welcome', function () {
+Route::get('/', function () {
     return view('welcome');
 });
 
@@ -26,3 +26,9 @@ Route::get('/eventos', function () {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+
+
+
+//Eventos - Dashboard
+Route::get('/home/eventos', 'EventController@index')->name('home.events');
