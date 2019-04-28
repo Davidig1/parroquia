@@ -3,7 +3,7 @@
 	<head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Quienes Somos</title>
+	<title>Bautizo</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
   	<!-- Facebook y Twitter integracion -->
@@ -61,8 +61,8 @@
 						<ul>
 							<li><a href="">Inicio</a></li>
 							<li><a href="sermones">Sermones</a></li>
-							<li class="has-dropdown">
-								<a href="sacramentos">Sacramentos</a>
+							<li class="has-dropdown" class="active">
+								<a href="">Sacramentos</a>
 								<ul class="dropdown">
 									<li><a href="bautizo">Bautizo</a></li>
 									<li><a href="comunion">Primera Comunion</a></li>
@@ -72,7 +72,7 @@
 								</ul>
 							</li>
 							<li><a href="eventos">Eventos</a></li>
-							<li  class="active"><a href="quienessomos">Quienes Somos</a></li>
+							<li><a href="quienessomos">Quienes Somos</a></li>
 							<li><a href="contactenos">Contactenos</a></li>
 							<li><a href="login">Ingresar</a></li>
 						</ul>
@@ -92,8 +92,8 @@
 			   			<div class="row">
 				   			<div class="col-md-6 col-md-offset-3 text-center slider-text">
 				   				<div class="slider-text-inner">
-				   					<h1>Sobre Noosotros</h1>
-										<h2>Comienzo de una pastoral en comunion.</h2>
+				   					<h1>Confirmación</h1>
+										<h2>Permite acoger al Espíritu Santo para amar como Cristo.</h2>
 				   				</div>
 				   			</div>
 				   		</div>
@@ -103,30 +103,48 @@
 		  	</div>
 		</aside>
 		<div id="fh5co-about">
+			<div class="row animate-box">
+                <div class="col-md-6 col-md-offset-3 text-center fh5co-heading">
+                    <h2>Lo que debes saber</h2>
+                    <p>Te brindamos la informacion necesaria para ser partcipe de este sacramento.</p>
+                </div>
+            </div>
+			<div class="row">
+                <div class="col-md-4 animate-box">
+                    <div class="services">
+                        <a class="img-holder"><img class="img-responsive" src="santamaria/images/img-1.jpg" alt=""></a>
+                    </div>
+                </div>
+                <div class="col-md-4 animate-box">
+                    <div class="services">
+                        <a class="img-holder"><img class="img-responsive" src="santamaria/images/img-3.jpg" alt=""></a>
+                    </div>
+                </div>
+                <div class="col-md-4 animate-box">
+                    <div class="services">
+                        <a class="img-holder"><img class="img-responsive" src="santamaria/images/img-2.jpg" alt=""></a>
+                    </div>
+                </div>
+            </div>
 			<div class="row">
 				<div class="col-md-4">
-					<h3>Verso Diario</h3>
-					<blockquote class="dailyVerse">
-						<p>"No se inquieten por el día de mañana; el mañana se inquietará por sí mismo. A cada día le bastan sus propias preocupaciones"</p>
-						<span>(Mateo 6,34).</span>
-					</blockquote>
+					<h3>¿Que es la Confirmación? </h3>
+					<p>El sacramento de la Confirmación permite acoger al Espíritu Santo en el corazón y recibir sus siete dones: la sabiduría, la inteligencia, el consejo, la fortaleza, la ciencia, la piedad y el temor de Dios..</p>
 				</div>
 				<div class="col-md-4">
-					<h3>Nosotros </h3>
-					<p>Somos una parroquia activa, plenamente integrada en la sociedad de La Paz. Debido a nuestra localización, además de contar con los fieles que viven en la zona, contamos con un gran número de parroquianos procedentes del colegio Santa María, ya que nuestro templo tiene una estrecha relación con las actividades pastorales del centro educativo. El otro centro educativo cercano, cuyas familias participan del culto es el CEIP.</p>
-				</div><br><br>
-				<div class="col-md-4 animate-box">
-					<div class="services">
-						<a class="img-holder"><img class="img-responsive" src="images/img-2.jpg" alt=""></a>
-					</div>
+					<h3>Requisitos </h3>
+					<p>-Certificado de nacimiento (Original y Fotocopia)<br>
+					   -Fotocopia de Cedula de identidad de los padres<br><br>
+					   PARA LOS PADRINOS(no familiares de primer grado):<br><br>
+					   -Fotocopia de cedula de identidad<br>
+					   -Certificado de bautizo o confirmacion o certificado de matrimonio religioso</p>
 				</div>
-			</div>
-		</div>
-		<div id="fh5co-counter" class="fh5co-counters fh5co-light-grey">
-			<div class="row">
-				<div class="col-md-6 col-md-offset-3 text-center animate-box">
-					<p>Toda persona tiene un lugar dentro del cuerpo de Cristo, y esperamos verle a alcanzar su máximo potencial en el Señor. Su participación sirve para animar a otros a medida que creces en el conocimiento de la Palabra de Dios y en la plenitud y la estatura de Cristo.</p>
-					</div>
+				<br><br><div class="col-md-4 animate-box">
+                    <div class="services">
+                        <a class="img-holder"><img class="img-responsive" src="santamaria/images/img-2.jpg" alt=""></a>
+                    </div>
+                </div>
+				
 			</div>
 		</div>
 	</div><!-- END container-wrap -->
@@ -186,4 +204,3 @@
 
 	</body>
 </html>
-

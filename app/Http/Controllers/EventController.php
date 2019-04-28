@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use Calendar;
 use App\Event;
+use Validator;
 class EventController extends Controller
 {
     public function index()
@@ -15,7 +16,7 @@ class EventController extends Controller
         if($data->count()) {
             foreach ($data as $key => $value) {
                 $events[] = Calendar::event(
-                    $value->title,
+                    $value->event_name,
                     true,
                     new \DateTime($value->start_date),
                     new \DateTime($value->end_date.' +1 day'),
@@ -23,12 +24,18 @@ class EventController extends Controller
                     // Add color and link on event
 	                [
 	                    'color' => '#2E64FE',
-	                    'url' => 'pass here url and any route',
+	                    'url' => 'eventos/'.$value->id,
 	                ]
                 );
             }
         }
         $calendar = Calendar::addEvents($events);
         return view('events.index', compact('calendar'));
+    }
+
+    public function create(Request $request)
+    {
+         event::create(Request()->all());
+         return back();
     }
 }

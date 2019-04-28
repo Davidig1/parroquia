@@ -23,6 +23,28 @@ Route::get('/eventos', function () {
     return view('eventos');
 });
 
+
+Route::get('/bautizo', function () {
+    return view('bautizo');
+});
+
+Route::get('/comunion', function () {
+    return view('comunion');
+});
+
+Route::get('/confirmacion', function () {
+    return view('confirmacion');
+});
+
+Route::get('/matrimonio', function () {
+    return view('matrimonio');
+});
+
+Route::get('/catequesis', function () {
+    return view('catequesis');
+});
+
+
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
@@ -31,4 +53,5 @@ Route::get('/home', 'HomeController@index')->name('home');
 
 
 //Eventos - Dashboard
-Route::get('/home/eventos', 'EventController@index')->name('home.events');
+Route::get('/home/eventos', 'EventController@index')->name('events.index');
+Route::post('/home/eventos/crear', 'EventController@create')->name('events.create');
