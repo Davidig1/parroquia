@@ -23,7 +23,7 @@ class EventController extends Controller
                     null,
                     // Add color and link on event
 	                [
-	                    'color' => '#2E64FE',
+	                    'color' => $value->event_color,
 	                    'url' => 'eventos/'.$value->id,
 	                ]
                 );
