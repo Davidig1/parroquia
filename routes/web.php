@@ -23,8 +23,7 @@ Route::get('/eventos', function () {
     return view('eventos');
 });
 
-<<<<<<< HEAD
-=======
+
 Route::get('/bautizo', function () {
     return view('bautizo');
 });
@@ -45,7 +44,7 @@ Route::get('/catequesis', function () {
     return view('catequesis');
 });
 
->>>>>>> mauriciolima
+
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
