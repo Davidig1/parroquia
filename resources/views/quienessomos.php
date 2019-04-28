@@ -62,7 +62,7 @@
 							<li><a href="">Inicio</a></li>
 							<li><a href="sermones">Sermones</a></li>
 							<li class="has-dropdown">
-								<a href="sacramentos">Sacramentos</a>
+								<a href="">Sacramentos</a>
 								<ul class="dropdown">
 									<li><a href="bautizo">Bautizo</a></li>
 									<li><a href="comunion">Primera Comunion</a></li>
@@ -86,7 +86,7 @@
 		<aside id="fh5co-hero">
 			<div class="flexslider">
 				<ul class="slides">
-			   	<li style="background-image: url(images/img_bg_2.jpg);">
+			   	<li style="background-image: url(santamaria/images/img_bg_2.jpg);">
 			   		<div class="overlay"></div>
 			   		<div class="container-fluid">
 			   			<div class="row">
