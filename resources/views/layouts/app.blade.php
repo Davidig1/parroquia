@@ -77,7 +77,7 @@
           <div class="bg-white py-2 collapse-inner rounded">
             
             <a class="collapse-item" href="buttons.html">Eventos - Not Found</a>
-            <a class="collapse-item" href="{{ route('home.events') }}">Calendario</a>
+            <a class="collapse-item" href="{{ route('events.index') }}">Calendario</a>
           </div>
         </div>
       </li>
@@ -406,12 +406,8 @@
         <!-- Begin Page Content -->
         <div class="container-fluid">
 
-          <!-- Page Heading -->
-          <div class="d-sm-flex align-items-center justify-content-between mb-4">
-            <h1 class="h3 mb-0 text-gray-800">  </h1>
-            
-          </div>
-
+        
+          
           
           @yield('content')
 

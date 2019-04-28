@@ -31,4 +31,5 @@ Route::get('/home', 'HomeController@index')->name('home');
 
 
 //Eventos - Dashboard
-Route::get('/home/eventos', 'EventController@index')->name('home.events');
+Route::get('/home/eventos', 'EventController@index')->name('events.index');
+Route::post('/home/eventos/crear', 'EventController@create')->name('events.create');
