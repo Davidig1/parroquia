@@ -23,6 +23,29 @@ Route::get('/eventos', function () {
     return view('eventos');
 });
 
+<<<<<<< HEAD
+=======
+Route::get('/bautizo', function () {
+    return view('bautizo');
+});
+
+Route::get('/comunion', function () {
+    return view('comunion');
+});
+
+Route::get('/confirmacion', function () {
+    return view('confirmacion');
+});
+
+Route::get('/matrimonio', function () {
+    return view('matrimonio');
+});
+
+Route::get('/catequesis', function () {
+    return view('catequesis');
+});
+
+>>>>>>> mauriciolima
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
