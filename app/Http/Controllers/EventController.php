@@ -17,9 +17,10 @@ class EventController extends Controller
             foreach ($data as $key => $value) {
                 $events[] = Calendar::event(
                     $value->event_name,
-                    true,
+                    false,
                     new \DateTime($value->start_date),
-                    new \DateTime($value->end_date.' +1 day'),
+                    new \DateTime($value->end_date),
+                    //new \DateTime($value->end_date.' +1 day'),
                     null,
                     // Add color and link on event
 	                [
@@ -34,8 +35,9 @@ class EventController extends Controller
     }
 
     public function create(Request $request)
-    {
-         event::create(Request()->all());
-         return back();
+    {   
+       //dd(request()->all());
+      Event::create(Request()->all()); 
+      return back();
     }
 }

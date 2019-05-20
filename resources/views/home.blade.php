@@ -8,6 +8,7 @@
         {{ session('status') }}
 	</div>
 @endif
+
 <div class="card-deck">
   <div class="card">
     <img class="card-img-top" src="img/bautismo.jpg" alt="Card image cap">
