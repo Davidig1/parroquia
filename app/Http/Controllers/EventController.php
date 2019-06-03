@@ -31,7 +31,7 @@ class EventController extends Controller
             }
         }
         $calendar = Calendar::addEvents($events);
-        return view('events.index', compact('calendar'));
+        return view('events.index', compact('calendar', 'data'));
     }
 
     public function create(Request $request)
@@ -39,5 +39,11 @@ class EventController extends Controller
        //dd(request()->all());
       Event::create(Request()->all()); 
       return back();
+    }
+
+    public function delete(Event $event)
+    {   
+        $event = Event::find($event->id)->delete();
+        return back();
     }
 }
