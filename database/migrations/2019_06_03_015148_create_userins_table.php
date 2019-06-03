@@ -14,8 +14,8 @@ class CreateUserinsTable extends Migration
     public function up()
     {
         Schema::create('userins', function (Blueprint $table) {
-            $table->increments('cid');
-            $table->string('id')->unique();
+            $table->increments('id');
+            $table->string('cn')->unique();
             $table->integer('estado')->default('1');
             $table->string('nombre');
             $table->string('app');

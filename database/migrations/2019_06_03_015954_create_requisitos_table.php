@@ -15,15 +15,15 @@ class CreateRequisitosTable extends Migration
     {
         Schema::create('requisitos', function (Blueprint $table) {
             $table->increments('id');
-            $table->string('userin_id');
+            $table->integer('userin_id')->unsigned();
             $table->string('sacramento');
             $table->integer('cno');
             $table->integer('cnf');
-            $table->integer('fca');
-            $table->integer('cbauo');
-            $table->integer('cbauf');
-            $table->integer('ccomo');
-            $table->integer('ccomf');
+            $table->integer('fca')->default('2');
+            $table->integer('cbauo')->default('2');
+            $table->integer('cbauf')->default('2');
+            $table->integer('ccomo')->default('2');
+            $table->integer('ccomf')->default('2');
             $table->integer('fcp');
             $table->integer('cpa');
             $table->timestamps();

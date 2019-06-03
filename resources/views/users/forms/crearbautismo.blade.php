@@ -1,10 +1,10 @@
 <!-- Button trigger modal -->
-<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#crearcomunion">
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#crearbautismo">
   Agregar
 </button>
 
 <!-- Modal -->
-<div class="modal fade" id="crearcomunion" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal fade" id="crearbautismo" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-xl" role="document">
     <div class="modal-content">
       <div class="modal-header">
@@ -15,10 +15,10 @@
       </div>
       <div class="modal-body">
         
-        <form action="{{route('comunion.crear')}}" method="POST">
+        <form action="{{route('bautismo.crear')}}" method="POST">
           {{ csrf_field() }}
           
-          <input type="hidden" name="sacramento" value="comunion">
+          <input type="hidden" name="sacramento" value="bautismo">
           <div class="card text-center">
           <h4 class="card-title">Certificado de Nacimiento</h4>
           </div>
@@ -113,50 +113,6 @@
               </div>
             </fieldset>
           </div>
-
-
-          <div class="form-row">
-            <fieldset class="form-group col-md-4">
-              <div class="row">
-                <legend class="col-form-label col-sm-4 pt-0">Certificado de Bautizo Original</legend>
-                <div class="col-sm-5">
-                  <div class="form-check">
-                    <input class="form-check-input" type="radio" name="cbauo" id="gridRadios1" value="1" checked>
-                    <label class="form-check-label" for="gridRadios1">
-                      SI
-                    </label>
-                  </div>
-                  <div class="form-check">
-                    <input class="form-check-input" type="radio" name="cbauo" id="gridRadios2" value="0">
-                    <label class="form-check-label" for="gridRadios2">
-                      PENDIENTE
-                    </label>
-                  </div>
-                </div>
-              </div>
-            </fieldset>
-
-            <fieldset class="form-group col-md-4">
-              <div class="row">
-                <legend class="col-form-label col-sm-4 pt-0">Certificado de Bautizo Fotocopia</legend>
-                <div class="col-sm-5">
-                  <div class="form-check">
-                    <input class="form-check-input" type="radio" name="cbauf" id="gridRadios1" value="1" checked>
-                    <label class="form-check-label" for="gridRadios1">
-                      SI
-                    </label>
-                  </div>
-                  <div class="form-check">
-                    <input class="form-check-input" type="radio" name="cbauf" id="gridRadios2" value="0">
-                    <label class="form-check-label" for="gridRadios2">
-                      PENDIENTE
-                    </label>
-                  </div>
-                </div>
-              </div>
-            </fieldset>
-          </div>
-            
 
 
           <div class="card text-center">

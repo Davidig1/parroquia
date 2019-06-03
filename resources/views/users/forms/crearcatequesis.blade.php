@@ -1,24 +1,24 @@
 <!-- Button trigger modal -->
-<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#crearcomunion">
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#crearcatequesis">
   Agregar
 </button>
 
 <!-- Modal -->
-<div class="modal fade" id="crearcomunion" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal fade" id="crearcatequesis" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-xl" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Nuevo Comunion</h5>
+        <h5 class="modal-title" id="exampleModalLabel">Nuevo Catequesis</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
       <div class="modal-body">
         
-        <form action="{{route('comunion.crear')}}" method="POST">
+        <form action="{{route('catequesis.crear')}}" method="POST">
           {{ csrf_field() }}
           
-          <input type="hidden" name="sacramento" value="comunion">
+          <input type="hidden" name="sacramento" value="catequesis">
           <div class="card text-center">
           <h4 class="card-title">Certificado de Nacimiento</h4>
           </div>
@@ -95,7 +95,7 @@
 
             <fieldset class="form-group col-md-4">
               <div class="row">
-                <legend class="col-form-label col-sm-4 pt-0">Fotocopia C.I. Apoderado</legend>
+                <legend class="col-form-label col-sm-4 pt-0">Fotocopia C.I.</legend>
                 <div class="col-sm-5">
                   <div class="form-check">
                     <input class="form-check-input" type="radio" name="fca" id="gridRadios1" value="1" checked>
