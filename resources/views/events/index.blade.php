@@ -28,14 +28,72 @@
   </div>
   <br><br><br>
 
-  <div class="card shadow mb-4 position-sticky">   
-      <div class="card-header py-3">
-        <h6 class="m-0 font-weight-bold text-primary">...</h6>
-      </div>
-      <div class="card-body">        
-        {!! $calendar->calendar() !!} <br><br>          
-      </div>     
-  </div>    
+
+<div class="card shadow mb-4">
+            <div class="card-header py-3 row">
+                <div class="col">
+                  <h6 class="m-0 font-weight-bold text-primary">Lista de Eventos</h6>
+                </div>  
+                <div class="float-right">
+                  <button type="button" class="btn btn-info btn-sm" data-toggle="modal" data-target="#exampleModalCenter">
+                    Abrir Calendario
+                  </button>
+                </div>
+            </div>
+
+            <div class="card-body">
+              <div class="table-responsive">
+                <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                  <thead>
+                    <tr>
+                      <th>Id</th>
+                      <th>Nombre</th>
+                      <th>Descripcion</th>
+                      <th>Precio</th>
+                      <th>Fecha y hora de inicio</th>
+                      <th>Fecha y hora de fin</th>
+                      <th>Editar</th>
+                      <th>Eliminar</th>
+                    </tr>
+                  </thead>
+                  <tfoot>
+                    <tr>
+                      <th>Id</th>
+                      <th>Nombre</th>
+                      <th>Descripcion</th>
+                      <th>Precio</th>
+                      <th>Fecha y hora de inicio</th>
+                      <th>Fecha y hora de fin</th>
+                      <th>Editar</th>
+                      <th>Eliminar</th>
+                    </tr>
+                  </tfoot>
+                  <tbody>
+                    @foreach ($data as $events)
+                    <tr>
+                      <td>{{$events->id}}</td>
+                      <td>{{$events->event_name}}</td>
+                      <td>{{$events->event_des}}</td>
+                      <td>{{$events->event_price}}&nbsp;Bs</td>
+                      <td>{{$events->start_date}}</td>
+                      <td>{{$events->end_date}}</td>
+                      <td>
+                          <a href="#" class="btn btn-info btn-circle">
+                            <i class="fas fa-info-circle"></i>
+                          </a>
+                      </td>
+                      <td>
+                          <a href="{{ route('events.delete',['event' => $events ])}}" class="btn btn-danger btn-circle">
+                            <i class="fas fa-trash"></i>
+                          </a>
+                      </td>
+                    </tr>
+                    @endforeach
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
 
 
 
@@ -60,6 +118,17 @@
               </div>
               <br>
               <div class="form-group">
+                <label class="font-weight-normal">Descripcion del evento</label>
+                <input type="text" name="event_des" class="form-control" placeholder="Describa los detalles del evento">
+              </div>
+
+              <div class="form-group">
+                <label class="font-weight-normal">Precio del evento</label>
+                <input type="text" name="event_price" class="form-control" placeholder="Precio en bolivianos">
+              </div>
+
+               <!-- otro selector de fecha   
+              <div class="form-group">
                 <div class="input-group date start col-md-5" data-date="2019-01-01T00:00:07Z" data-date-format="dd MM yyyy - HH:ii p" data-link-field="dtp_input1">
                   <label class="font-weight-normal">Fecha de inicio del evento</label>
                   <input class="form-control" size="16" type="text" value="" readonly>
@@ -68,7 +137,12 @@
                 </div>
                   <input type="hidden" id="dtp_input1" value="" name="start_date" /><br/>
               </div>
-              
+              -->
+              <div class="form-group">
+                <label class="font-weight-normal">Fecha de inicio del evento</label>
+                <input type="datetime-local" class="form-control" class="date" name="start_date" /><br/>
+              </div>
+
               <div class="form-group">
                 <label class="font-weight-normal">Fecha de fin del evento</label>
                 <input type="datetime-local" class="form-control" class="date" name="end_date" /><br/>
@@ -88,6 +162,32 @@
         <button type="reset" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
         <button type="submit" class="btn btn-primary">Guardar</button>
         </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+<!-- Modal Calendario-->
+<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalCenterTitle">Calendario</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        {!! $calendar->calendar() !!}
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+  
       </div>
     </div>
   </div>
@@ -138,4 +238,11 @@
     });
   
 </script>
+
+<!-- Page level plugins -->
+  <script src="{{asset('vendor/datatables/jquery.dataTables.min.js')}}"></script>
+  <script src="{{asset('vendor/datatables/dataTables.bootstrap4.min.js')}}"></script>
+
+  <!-- Page level custom scripts -->
+  <script src="{{asset('js/demo/datatables-demo.js')}}"></script>
 @endsection
