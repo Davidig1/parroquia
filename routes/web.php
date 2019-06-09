@@ -37,6 +37,13 @@ Route::get('/confirmacion', function () {
 Route::get('/matrimonio', function () {
     return view('matrimonio');
 });
+Route::get('/contactenos', function () {
+    return view('contactenos');
+});
+Route::get('/sermones', function () {
+    return view('sermones');
+});
+
 
 Auth::routes();
 
