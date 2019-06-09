@@ -22,6 +22,21 @@ Route::get('/quienessomos', function () {
 Route::get('/eventos', function () {
     return view('eventos');
 });
+Route::get('/bautizo', function () {
+    return view('bautizo');
+});
+Route::get('/catequesis', function () {
+    return view('catequesis');
+});
+Route::get('/comunion', function () {
+    return view('comunion');
+});
+Route::get('/confirmacion', function () {
+    return view('confirmacion');
+});
+Route::get('/matrimonio', function () {
+    return view('matrimonio');
+});
 
 Auth::routes();
 
