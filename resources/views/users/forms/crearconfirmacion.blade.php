@@ -1,6 +1,6 @@
 <!-- Button trigger modal -->
-<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#crearconfirmacion">
-  Agregar
+<button type="button" class="btn btn-success" data-toggle="modal" data-target="#crearconfirmacion">
+  Agregar +
 </button>
 
 <!-- Modal -->
