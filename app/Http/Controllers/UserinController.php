@@ -117,4 +117,16 @@ class UserinController extends Controller
         ]);
         return back()->with('flash', "Se ha registrado correctamente");
     }
+
+
+    public function lista(){
+        $user = Userin::with('requisitos')->get();
+        $ba = Requisito::where('sacramento', 'bautismo')->with('userins')->get();
+        $com = Requisito::where('sacramento', 'comunion')->with('userins')->get();
+        $con = Requisito::where('sacramento', 'confirmacion')->with('userins')->get();
+        $cat = Requisito::where('sacramento', 'catequesis')->with('userins')->get();
+        $ma = Matrimonio::with('userins')->get();
+        //dd($ma);
+        return view('users.listas.lista', compact('ba','com','con','cat'));
+    }
 }

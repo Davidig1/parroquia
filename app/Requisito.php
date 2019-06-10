@@ -9,6 +9,6 @@ class Requisito extends Model
     protected $fillable = ['userin_id', 'sacramento', 'cno', 'cnf', 'fca', 'cbauo', 'cbauf', 'ccomo', 'ccomf', 'fcp', 'cpa'];
 
     public function userins(){
-    	return $this->belongsTo('App\Userin');
+    	return $this->belongsTo('App\Userin', 'userin_id');
     }
 }
