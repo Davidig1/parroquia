@@ -48,6 +48,3 @@ Route::post('/home/crearbautismo', 'UserinController@crearbau')->name('bautismo.
 Route::post('/home/crearcatequesis', 'UserinController@crearcat')->name('catequesis.crear');
 Route::post('/home/crearconfirmacion', 'UserinController@crearcon')->name('confirmacion.crear');
 Route::post('/home/crearmatrimonio', 'UserinController@crearmat')->name('matrimonio.crear');
-
-//Lista Inscritos
-Route::get('/home/lista', 'UserinController@lista')->name('lista.index');
