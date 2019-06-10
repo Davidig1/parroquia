@@ -51,3 +51,6 @@ Route::post('/home/crearmatrimonio', 'UserinController@crearmat')->name('matrimo
 
 //Lista Inscritos
 Route::get('/home/lista', 'UserinController@lista')->name('lista.index');
+
+//Reporte Lista Inscritos
+Route::get('/home/listareporte', 'UserinController@listareporte')->name('lista.reporte');

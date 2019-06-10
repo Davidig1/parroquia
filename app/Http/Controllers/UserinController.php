@@ -7,6 +7,7 @@ use App\Http\Controllers\Controller;
 use App\Userin;
 use App\Requisito;
 use App\Matrimonio;
+use PDF;
 
 class UserinController extends Controller
 {
@@ -128,5 +129,13 @@ class UserinController extends Controller
         $ma = Matrimonio::with('userins')->get();
         //dd($ma);
         return view('users.listas.lista', compact('ba','com','con','cat'));
+    }
+
+    Public function listareporte(){
+        $user = Requisito::where('sacramento', 'bautismo')->with('userins')->get();
+        $view = \View::make('users.listas.reportelista', compact('user'))->render();
+        $pdf = \App::make('dompdf.wrapper');
+        $pdf->loadHTML($view);
+        return $pdf->download('lista.pdf');
     }
 }

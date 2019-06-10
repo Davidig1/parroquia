@@ -9,8 +9,11 @@
     <a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-matrimonio" role="tab" aria-controls="nav-contact" aria-selected="false">MATRIMONIO</a>
   </div>
 </nav>
+<div class="float-right">
+	<a href="{{route ('lista.reporte')}}">Descargar Lista</a>
+</div>
 <div class="tab-content" id="nav-tabContent">
-  <div class="tab-pane fade show active" id="nav-bautismo" role="tabpanel" aria-labelledby="nav-home-tab">lista de baustismo
+  <div class="tab-pane fade show active" id="nav-bautismo" role="tabpanel" aria-labelledby="nav-home-tab">Lista de baustismo
 	<table class="table">
 		<thead>
 			<tr>
@@ -120,7 +123,6 @@
 				<td></td>
 			</tr>
 			@endforeach
-			
 		</tbody>
 	</table>
   </div>
