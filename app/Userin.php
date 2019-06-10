@@ -11,4 +11,8 @@ class Userin extends Model
     public function requisitos(){
     	return $this->hasMany('App\Requisito');
     }
+
+    public function matrimonios(){
+    	return $this->hasMany('App\Matrimonio');
+    }
 }
