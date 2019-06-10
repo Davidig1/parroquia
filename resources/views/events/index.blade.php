@@ -38,6 +38,7 @@
                   <button type="button" class="btn btn-info btn-sm" data-toggle="modal" data-target="#exampleModalCenter">
                     Abrir Calendario
                   </button>
+                  <button type="button" class="btn btn-alert" data-toggle="modal" data-target="#reportesmodal">Reportes</button>
                 </div>
             </div>
 
@@ -187,6 +188,42 @@
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+        </div>
+    </div>
+  </div>
+</div>
+
+
+<!-- Modal Reportes-->
+<div class="modal fade" id="reportesmodal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+    <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalCenterTitle">Generacion de reportes</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+
+           <form class="form-group" method="post" action="{{ route('events.report') }}">
+                  {{csrf_field()}}
+
+             <a href="" class="text-primary">Indique las fechas de inicio y fin de las que se generara el reporte</a>     
+             <div class="form-group">
+                <label class="font-weight-normal">Fecha de inicio</label>
+                <input type="date" class="form-control" class="date" name="start_date_report" /><br/>
+              </div>
+
+              <div class="form-group">
+                <label class="font-weight-normal">Fecha de fin</label>
+                <input type="date" class="form-control" class="date" name="end_date_report" /><br/>
+              </div>
+        </div>
+        <div class="modal-footer">
+          <button type="reset" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+          <button type="submit" class="btn btn-primary">Generar</button>
+          </form>
         </div>
     </div>
   </div>
