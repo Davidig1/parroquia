@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use App\Userin;
 use App\Requisito;
+use App\Matrimonio;
 
 class UserinController extends Controller
 {
@@ -77,5 +78,43 @@ class UserinController extends Controller
     		'cpa' => $request['cpa'],
     	]);
     	return back()->with('flash', "Se ha registrado correctamente");
+    }
+
+    public function crearmat(Request $request){
+        $no = Userin::create([
+            'cn' => $request['cnno'],
+            'nombre' => $request['nombreno'],
+            'app' => $request['appno'],
+            'apm' => $request['apmno'],
+            'fxn' => $request['fxno'],
+            ]);
+        $na = Userin::create([
+            'cn' => $request['cnna'],
+            'nombre' => $request['nombrena'],
+            'app' => $request['appna'],
+            'apm' => $request['apmna'],
+            'fxn' => $request['fxna'],
+            ]);
+        $idno = $no->id;
+        $idna = $na->id;
+        Matrimonio::create([
+            'novio_id' => $idno,
+            'novia_id' => $idna,
+            'fcnno' => $request['fcnno'],
+            'fcnna' => $request['fcnna'],
+            'focino' => $request['focino'],
+            'focina' => $request['focina'],
+            'cconno' => $request['cconno'],
+            'cconna' => $request['cconna'],
+            'cbano' => $request['cbano'],
+            'cbana' => $request['cbana'],
+            'cmc' => $request['cmc'],
+            'pm' => $request['pm'],
+            'tfcino' => $request['tfcino'],
+            'tfcina' => $request['tfcina'],
+            'pfcino' => $request['pfcino'],
+            'pfcina' => $request['pfcina'],
+        ]);
+        return back()->with('flash', "Se ha registrado correctamente");
     }
 }

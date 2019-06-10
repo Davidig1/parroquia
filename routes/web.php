@@ -47,3 +47,4 @@ Route::post('/home/crearcomunion', 'UserinController@crearcom')->name('comunion.
 Route::post('/home/crearbautismo', 'UserinController@crearbau')->name('bautismo.crear');
 Route::post('/home/crearcatequesis', 'UserinController@crearcat')->name('catequesis.crear');
 Route::post('/home/crearconfirmacion', 'UserinController@crearcon')->name('confirmacion.crear');
+Route::post('/home/crearmatrimonio', 'UserinController@crearmat')->name('matrimonio.crear');
