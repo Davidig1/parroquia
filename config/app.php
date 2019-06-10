@@ -164,6 +164,9 @@ return [
         //Full-Calendar
         MaddHatter\LaravelFullcalendar\ServiceProvider::class,
 
+        //DOM PDF
+        Barryvdh\DomPDF\ServiceProvider::class,
+
     ],
 
     /*
@@ -217,6 +220,8 @@ return [
         //Full-Calendar
         'Calendar' => MaddHatter\LaravelFullcalendar\Facades\Calendar::class,
 
+        //DOM PDF 
+        'PDF' => Barryvdh\DomPDF\Facade::class,
     ],
 
 ];
