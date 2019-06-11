@@ -87,7 +87,7 @@
         <aside id="fh5co-hero">
             <div class="flexslider">
                 <ul class="slides">
-                <li style="background-image: url(santamaria/images/img_bg_1.jpg);">
+                <li style="background-image: url(santamaria/images/comunidad6.jpg);">
                     <div class="overlay"></div>
                     <div class="container-fluid">
                         <div class="row">
@@ -103,7 +103,7 @@
                         </div>
                     </div>
                 </li>
-                <li style="background-image: url(santamaria/images/img_bg_2.jpg);">
+                <li style="background-image: url(santamaria/images/comunidad.jpg);">
                     <div class="overlay"></div>
                     <div class="container-fluid">
                         <div class="row">
@@ -119,7 +119,7 @@
                         </div>
                     </div>
                 </li>
-                <li style="background-image: url(santamaria/images/img_bg_3.jpg);">
+                <li style="background-image: url(santamaria/images/cursos2.jpg);">
                     <div class="overlay"></div>
                     <div class="container-fluids">
                         <div class="row">
@@ -149,7 +149,7 @@
             <div class="row">
                 <div class="col-md-4 animate-box">
                     <div class="services">
-                        <a class="img-holder"><img class="img-responsive" src="santamaria/images/img-1.jpg" alt=""></a>
+                        <a class="img-holder"><img class="img-responsive" src="santamaria/images/misas.jpg" alt=""></a>
                         <div class="desc">
                             <h3><a>HORARIO DE MISAS</a></h3>
                             <p>Lunes: 7:00 am.<br>
@@ -161,7 +161,7 @@
                 </div>
                 <div class="col-md-4 animate-box">
                     <div class="services">
-                        <a href="#" class="img-holder"><img class="img-responsive" src="santamaria/images/img-3.jpg" alt=""></a>
+                        <a href="#" class="img-holder"><img class="img-responsive" src="santamaria/images/confesion.jpg" alt=""></a>
                         <div class="desc">
                             <h3><a>CONFESIONES</a></h3>
                             <p>Martes a Sábado: 6:00pm<br>
@@ -172,7 +172,7 @@
                 </div>
                 <div class="col-md-4 animate-box">
                     <div class="services">
-                        <a href="#" class="img-holder"><img class="img-responsive" src="santamaria/images/img-2.jpg" alt=""></a>
+                        <a href="#" class="img-holder"><img class="img-responsive" src="santamaria/images/secretaria.jpg" alt=""></a>
                         <div class="desc">
                             <h3><a>HORARIO DE ATENCIÓN SECRETARÍA</a></h3>
                             <p>Lunes a Viernes: De 9:00am a 1:00pm  / De 3:30 a 7:00pm<br>
@@ -194,7 +194,7 @@
             <div class="row">
                 <div class="col-md-4 text-center animate-box">
                     <div class="sermon-entry">
-                        <a href="#"><div class="sermon" style="background-image: url(santamaria/images/sermon-1.jpg);">
+                        <a href="#"><div class="sermon" style="background-image: url(santamaria/images/bautizo.jpg);">
                             
                         </div></a>
                         <h3>Bautizo</h3>
@@ -202,14 +202,14 @@
                 </div>
                 <div class="col-md-4 text-center animate-box">
                     <div class="sermon-entry">
-                        <a href="#"><div class="sermon" style="background-image: url(santamaria/images/sermon-3.jpg);">
+                        <a href="#"><div class="sermon" style="background-image: url(santamaria/images/comunion6.jpg);">
                         </div></a>
                         <h3>Primera Comunion</h3>
                     </div>
                 </div>
                 <div class="col-md-4 text-center animate-box">
                     <div class="sermon-entry">
-                        <a href="#"><div class="sermon" style="background-image: url(santamaria/images/sermon-2.jpg);">
+                        <a href="#"><div class="sermon" style="background-image: url(santamaria/images/confir2.jpg);">
                         </div></a>
                         <h3>Confirmación</h3>
                     </div>
@@ -261,7 +261,7 @@
             <div class="row">
                 <div class="col-md-3 animate-box">
                     <div class="news">
-                        <a href="#" class="img-holder"><img class="img-responsive" src="santamaria/images/img-1.jpg" alt=""></a>
+                        <a href="#" class="img-holder"><img class="img-responsive" src="santamaria/images/viacrucisc.jpg" alt=""></a>
                         <div class="desc">
                             <span class="date">Abril 19</span>
                             <h3><a href="#">Via Crusis</a></h3>
@@ -272,7 +272,7 @@
                 </div>
                 <div class="col-md-3 animate-box">
                     <div class="news">
-                        <a href="#" class="img-holder"><img class="img-responsive" src="santamaria/images/img-3.jpg" alt=""></a>
+                        <a href="#" class="img-holder"><img class="img-responsive" src="santamaria/images/aniversarioc.jpg" alt=""></a>
                         <div class="desc">
                             <span class="date">junio 22</span>
                             <h3><a href="#">Aniversario de la Parroquia</a></h3>
@@ -283,7 +283,7 @@
                 </div>
                 <div class="col-md-3 animate-box">
                     <div class="news">
-                        <a href="#" class="img-holder"><img class="img-responsive" src="santamaria/images/img-2.jpg" alt=""></a>
+                        <a href="#" class="img-holder"><img class="img-responsive" src="santamaria/images/kermessec.jpg" alt=""></a>
                         <div class="desc">
                             <span class="date">Octubre 19</span>
                             <h3><a href="#">Kermesse Parroquial</a></h3>
@@ -294,7 +294,7 @@
                 </div>
                 <div class="col-md-3 animate-box">
                     <div class="news">
-                        <a href="#" class="img-holder"><img class="img-responsive" src="santamaria/images/img-4.jpg" alt=""></a>
+                        <a href="#" class="img-holder"><img class="img-responsive" src="santamaria/images/navidadc.jpg" alt=""></a>
                         <div class="desc">
                             <span class="date">Diciembre 24</span>
                             <h3><a href="#">Celebracion de Navidad</a></h3>
