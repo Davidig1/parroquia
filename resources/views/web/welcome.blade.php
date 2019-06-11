@@ -150,8 +150,12 @@
                 <div class="col-md-4 animate-box">
                     <div class="services">
 <<<<<<< HEAD:resources/views/web/welcome.blade.php
+<<<<<<< HEAD:resources/views/web/welcome.blade.php
 <<<<<<< HEAD:resources/views/welcome.blade.php
                         <a class="img-holder"><img class="img-responsive" src="santamaria/images/misas.jpg" alt=""></a>
+=======
+                        <a href="horario" class="img-holder"><img class="img-responsive" src="santamaria/images/img-1.jpg" alt=""></a>
+>>>>>>> 5f6d49168fe4b1c5884a19330c9c04357930c6c7:resources/views/web/welcome.blade.php
 =======
                         <a href="horario" class="img-holder"><img class="img-responsive" src="santamaria/images/img-1.jpg" alt=""></a>
 >>>>>>> 5f6d49168fe4b1c5884a19330c9c04357930c6c7:resources/views/web/welcome.blade.php
@@ -170,8 +174,12 @@
                 <div class="col-md-4 animate-box">
                     <div class="services">
 <<<<<<< HEAD:resources/views/web/welcome.blade.php
+<<<<<<< HEAD:resources/views/web/welcome.blade.php
 <<<<<<< HEAD:resources/views/welcome.blade.php
                         <a href="#" class="img-holder"><img class="img-responsive" src="santamaria/images/confesion.jpg" alt=""></a>
+=======
+                        <a href="horario" class="img-holder"><img class="img-responsive" src="santamaria/images/img-3.jpg" alt=""></a>
+>>>>>>> 5f6d49168fe4b1c5884a19330c9c04357930c6c7:resources/views/web/welcome.blade.php
 =======
                         <a href="horario" class="img-holder"><img class="img-responsive" src="santamaria/images/img-3.jpg" alt=""></a>
 >>>>>>> 5f6d49168fe4b1c5884a19330c9c04357930c6c7:resources/views/web/welcome.blade.php
@@ -189,8 +197,12 @@
                 <div class="col-md-4 animate-box">
                     <div class="services">
 <<<<<<< HEAD:resources/views/web/welcome.blade.php
+<<<<<<< HEAD:resources/views/web/welcome.blade.php
 <<<<<<< HEAD:resources/views/welcome.blade.php
                         <a href="#" class="img-holder"><img class="img-responsive" src="santamaria/images/secretaria.jpg" alt=""></a>
+=======
+                        <a href="horario" class="img-holder"><img class="img-responsive" src="santamaria/images/img-2.jpg" alt=""></a>
+>>>>>>> 5f6d49168fe4b1c5884a19330c9c04357930c6c7:resources/views/web/welcome.blade.php
 =======
                         <a href="horario" class="img-holder"><img class="img-responsive" src="santamaria/images/img-2.jpg" alt=""></a>
 >>>>>>> 5f6d49168fe4b1c5884a19330c9c04357930c6c7:resources/views/web/welcome.blade.php
@@ -219,8 +231,12 @@
                 <div class="col-md-4 text-center animate-box">
                     <div class="sermon-entry">
 <<<<<<< HEAD:resources/views/web/welcome.blade.php
+<<<<<<< HEAD:resources/views/web/welcome.blade.php
 <<<<<<< HEAD:resources/views/welcome.blade.php
                         <a href="#"><div class="sermon" style="background-image: url(santamaria/images/bautizo.jpg);">
+=======
+                        <a href="bautizo"><div class="sermon" style="background-image: url(santamaria/images/sermon-1.jpg);">
+>>>>>>> 5f6d49168fe4b1c5884a19330c9c04357930c6c7:resources/views/web/welcome.blade.php
 =======
                         <a href="bautizo"><div class="sermon" style="background-image: url(santamaria/images/sermon-1.jpg);">
 >>>>>>> 5f6d49168fe4b1c5884a19330c9c04357930c6c7:resources/views/web/welcome.blade.php
@@ -235,8 +251,12 @@
                 <div class="col-md-4 text-center animate-box">
                     <div class="sermon-entry">
 <<<<<<< HEAD:resources/views/web/welcome.blade.php
+<<<<<<< HEAD:resources/views/web/welcome.blade.php
 <<<<<<< HEAD:resources/views/welcome.blade.php
                         <a href="#"><div class="sermon" style="background-image: url(santamaria/images/comunion6.jpg);">
+=======
+                        <a href="comunion"><div class="sermon" style="background-image: url(santamaria/images/sermon-3.jpg);">
+>>>>>>> 5f6d49168fe4b1c5884a19330c9c04357930c6c7:resources/views/web/welcome.blade.php
 =======
                         <a href="comunion"><div class="sermon" style="background-image: url(santamaria/images/sermon-3.jpg);">
 >>>>>>> 5f6d49168fe4b1c5884a19330c9c04357930c6c7:resources/views/web/welcome.blade.php
@@ -250,8 +270,12 @@
                 <div class="col-md-4 text-center animate-box">
                     <div class="sermon-entry">
 <<<<<<< HEAD:resources/views/web/welcome.blade.php
+<<<<<<< HEAD:resources/views/web/welcome.blade.php
 <<<<<<< HEAD:resources/views/welcome.blade.php
                         <a href="#"><div class="sermon" style="background-image: url(santamaria/images/confir2.jpg);">
+=======
+                        <a href="confirmacion"><div class="sermon" style="background-image: url(santamaria/images/sermon-2.jpg);">
+>>>>>>> 5f6d49168fe4b1c5884a19330c9c04357930c6c7:resources/views/web/welcome.blade.php
 =======
                         <a href="confirmacion"><div class="sermon" style="background-image: url(santamaria/images/sermon-2.jpg);">
 >>>>>>> 5f6d49168fe4b1c5884a19330c9c04357930c6c7:resources/views/web/welcome.blade.php
@@ -310,8 +334,12 @@
                 <div class="col-md-3 animate-box">
                     <div class="news">
 <<<<<<< HEAD:resources/views/web/welcome.blade.php
+<<<<<<< HEAD:resources/views/web/welcome.blade.php
 <<<<<<< HEAD:resources/views/welcome.blade.php
                         <a href="#" class="img-holder"><img class="img-responsive" src="santamaria/images/viacrucisc.jpg" alt=""></a>
+=======
+                        <a href="eventos" class="img-holder"><img class="img-responsive" src="santamaria/images/img-1.jpg" alt=""></a>
+>>>>>>> 5f6d49168fe4b1c5884a19330c9c04357930c6c7:resources/views/web/welcome.blade.php
 =======
                         <a href="eventos" class="img-holder"><img class="img-responsive" src="santamaria/images/img-1.jpg" alt=""></a>
 >>>>>>> 5f6d49168fe4b1c5884a19330c9c04357930c6c7:resources/views/web/welcome.blade.php
@@ -329,8 +357,12 @@
                 <div class="col-md-3 animate-box">
                     <div class="news">
 <<<<<<< HEAD:resources/views/web/welcome.blade.php
+<<<<<<< HEAD:resources/views/web/welcome.blade.php
 <<<<<<< HEAD:resources/views/welcome.blade.php
                         <a href="#" class="img-holder"><img class="img-responsive" src="santamaria/images/aniversarioc.jpg" alt=""></a>
+=======
+                        <a href="eventos" class="img-holder"><img class="img-responsive" src="santamaria/images/img-3.jpg" alt=""></a>
+>>>>>>> 5f6d49168fe4b1c5884a19330c9c04357930c6c7:resources/views/web/welcome.blade.php
 =======
                         <a href="eventos" class="img-holder"><img class="img-responsive" src="santamaria/images/img-3.jpg" alt=""></a>
 >>>>>>> 5f6d49168fe4b1c5884a19330c9c04357930c6c7:resources/views/web/welcome.blade.php
@@ -348,8 +380,12 @@
                 <div class="col-md-3 animate-box">
                     <div class="news">
 <<<<<<< HEAD:resources/views/web/welcome.blade.php
+<<<<<<< HEAD:resources/views/web/welcome.blade.php
 <<<<<<< HEAD:resources/views/welcome.blade.php
                         <a href="#" class="img-holder"><img class="img-responsive" src="santamaria/images/kermessec.jpg" alt=""></a>
+=======
+                        <a href="eventos" class="img-holder"><img class="img-responsive" src="santamaria/images/img-2.jpg" alt=""></a>
+>>>>>>> 5f6d49168fe4b1c5884a19330c9c04357930c6c7:resources/views/web/welcome.blade.php
 =======
                         <a href="eventos" class="img-holder"><img class="img-responsive" src="santamaria/images/img-2.jpg" alt=""></a>
 >>>>>>> 5f6d49168fe4b1c5884a19330c9c04357930c6c7:resources/views/web/welcome.blade.php
@@ -367,8 +403,12 @@
                 <div class="col-md-3 animate-box">
                     <div class="news">
 <<<<<<< HEAD:resources/views/web/welcome.blade.php
+<<<<<<< HEAD:resources/views/web/welcome.blade.php
 <<<<<<< HEAD:resources/views/welcome.blade.php
                         <a href="#" class="img-holder"><img class="img-responsive" src="santamaria/images/navidadc.jpg" alt=""></a>
+=======
+                        <a href="eventos" class="img-holder"><img class="img-responsive" src="santamaria/images/img-4.jpg" alt=""></a>
+>>>>>>> 5f6d49168fe4b1c5884a19330c9c04357930c6c7:resources/views/web/welcome.blade.php
 =======
                         <a href="eventos" class="img-holder"><img class="img-responsive" src="santamaria/images/img-4.jpg" alt=""></a>
 >>>>>>> 5f6d49168fe4b1c5884a19330c9c04357930c6c7:resources/views/web/welcome.blade.php
