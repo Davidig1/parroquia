@@ -160,6 +160,13 @@ return [
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
 
+
+        //Full-Calendar
+        MaddHatter\LaravelFullcalendar\ServiceProvider::class,
+
+        //DOM PDF
+        Barryvdh\DomPDF\ServiceProvider::class,
+
     ],
 
     /*
@@ -209,6 +216,12 @@ return [
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
 
+
+        //Full-Calendar
+        'Calendar' => MaddHatter\LaravelFullcalendar\Facades\Calendar::class,
+
+        //DOM PDF 
+        'PDF' => Barryvdh\DomPDF\Facade::class,
     ],
 
 ];
