@@ -98,9 +98,47 @@ class UserinController extends Controller
         return view('users.listas.lista', compact('ba','com','con','cat','mat'));
     }
 
-    public function listareporte(){
+    public function listabau(){
+        $sac = "BAUTIZO";
         $user = Requisito::where('sacramento', 'bautismo')->with('userins')->get();
-        $view = \View::make('users.listas.reportelista', compact('user'))->render();
+        $view = \View::make('users.listas.reportelista', compact('user', 'sac'))->render();
+        $pdf = \App::make('dompdf.wrapper');
+        $pdf->loadHTML($view);
+        return $pdf->download('lista.pdf');
+    }
+
+    public function listacon(){
+        $sac = "CONFIRMACION";
+        $user = Requisito::where('sacramento', 'confirmacion')->with('userins')->get();
+        $view = \View::make('users.listas.reportelista', compact('user', 'sac'))->render();
+        $pdf = \App::make('dompdf.wrapper');
+        $pdf->loadHTML($view);
+        return $pdf->download('lista.pdf');
+    }
+
+    public function listacom(){
+        $sac = "COMUNION";
+        $user = Requisito::where('sacramento', 'comunion')->with('userins')->get();
+        $view = \View::make('users.listas.reportelista', compact('user', 'sac'))->render();
+        $pdf = \App::make('dompdf.wrapper');
+        $pdf->loadHTML($view);
+        return $pdf->download('lista.pdf');
+    }
+
+    public function listacat(){
+        $sac = "CATEQUESIS";
+        $user = Requisito::where('sacramento', 'catequesis')->with('userins')->get();
+        $view = \View::make('users.listas.reportelista', compact('user', 'sac'))->render();
+        $pdf = \App::make('dompdf.wrapper');
+        $pdf->loadHTML($view);
+        return $pdf->download('lista.pdf');
+    }
+
+
+    public function listamat(){
+        $sac = "MATRIMONIO";
+        $user = Matrimonio::all();
+        $view = \View::make('users.listas.reportelista', compact('user', 'sac'))->render();
         $pdf = \App::make('dompdf.wrapper');
         $pdf->loadHTML($view);
         return $pdf->download('lista.pdf');

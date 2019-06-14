@@ -9,11 +9,13 @@
     <a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-matrimonio" role="tab" aria-controls="nav-contact" aria-selected="false">MATRIMONIO</a>
   </div>
 </nav>
-<div class="float-right">
-	<a href="{{route ('lista.reporte')}}">Descargar Lista</a>
-</div>
+
 <div class="tab-content" id="nav-tabContent">
-  <div class="tab-pane fade show active" id="nav-bautismo" role="tabpanel" aria-labelledby="nav-home-tab">Lista de baustismo
+
+  <div class="tab-pane fade show active" id="nav-bautismo" role="tabpanel" aria-labelledby="nav-home-tab">Lista de BAUTISMO
+	<div class="float-right">
+		<a href="{{route ('lista.bau')}}">Descargar Lista Bautismo</a>
+	</div>
 	<table class="table">
 		<thead>
 			<tr>
@@ -42,7 +44,10 @@
 	</table>
   </div>
   <div class="tab-pane fade" id="nav-confirmacion" role="tabpanel" aria-labelledby="nav-profile-tab">
-  	lista de confirmacion
+  	lista de CONFIRMACION
+  	<div class="float-right">
+		<a href="{{route ('lista.con')}}">Descargar Lista Confirmacion</a>
+	</div>
   	<table class="table">
 		<thead>
 			<tr>
@@ -70,7 +75,10 @@
 		</tbody>
 	</table>
   </div>
-  <div class="tab-pane fade" id="nav-comunion" role="tabpanel" aria-labelledby="nav-contact-tab">Lista de comunion
+  <div class="tab-pane fade" id="nav-comunion" role="tabpanel" aria-labelledby="nav-contact-tab">Lista de COMUNION
+  	<div class="float-right">
+		<a href="{{route ('lista.com')}}">Descargar Lista Comunion</a>
+	</div>
 	<table class="table">
 		<thead>
 			<tr>
@@ -99,7 +107,10 @@
 	</table>
   </div>
   <div class="tab-pane fade" id="nav-catequesis" role="tabpanel" aria-labelledby="nav-profile-tab">
-  	lista de catequesis
+  	lista de CATEQUESIS
+  	<div class="float-right">
+		<a href="{{route ('lista.cat')}}">Descargar Lista Catequesis</a>
+	</div>
   	<table class="table">
 		<thead>
 			<tr>
@@ -129,6 +140,9 @@
 
   <div class="tab-pane fade" id="nav-matrimonio" role="tabpanel" aria-labelledby="nav-profile-tab">
   	Lista de Matrimonio
+  	<div class="float-right">
+		<a href="{{route ('lista.mat')}}">Descargar Lista Matrimonio</a>
+	</div>
   	<table class="table">
 
 		<thead>

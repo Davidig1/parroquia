@@ -1,13 +1,17 @@
+
 <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#createmodal">
         Crear Nuevo Evento
- </button>
+</button>
 
- <!-- Modal -->
+
 <div class="modal fade" id="createmodal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <link href="{{asset('/css/bootstrap-datetimepicker.min.css')}}" rel="stylesheet" media="screen">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/2.2.7/fullcalendar.min.css"/>
+<link rel="stylesheet" href="{{asset('css/jquery.minicolors.css')}}">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Crear nuevo Evento</h5>
+        <h5 class="modal-title" id="exampleModalLabel">Crear nuevo Eventoe</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
@@ -70,3 +74,33 @@
     </div>
   </div>
 </div>
+
+<script src="{{asset('js/jquery.minicolors.js')}}"></script>
+
+
+<script type="text/javascript" src="{{asset('/js/bootstrap-datetimepicker.js')}}" charset="UTF-8"></script>
+<script type="text/javascript" src="{{asset('/js/bootstrap-datetimepicker.fr.js')}}" charset="UTF-8"></script>
+<script type="text/javascript">
+    $('.start').datetimepicker({
+        //language:  'fr',
+        weekStart: 1,
+        todayBtn:  1,
+    autoclose: 1,
+    todayHighlight: 1,
+    startView: 2,
+    forceParse: 0,
+        showMeridian: 1
+    });
+
+    $('.end').datetimepicker({
+        //language:  'fr',
+        weekStart: 1,
+        todayBtn:  1,
+    autoclose: 1,
+    todayHighlight: 1,
+    startView: 2,
+    forceParse: 0,
+        showMeridian: 1
+    });
+  
+</script>

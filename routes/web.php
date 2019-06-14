@@ -56,7 +56,17 @@ Route::post('/home/crearmatrimonio', 'UserinController@crearmat')->name('matrimo
 Route::get('/home/lista', 'UserinController@lista')->name('lista.index');
 
 //Reporte Lista Inscritos
-Route::get('/home/listareporte', 'UserinController@listareporte')->name('lista.reporte');
+Route::get('/home/listabau', 'UserinController@listabau')->name('lista.bau');
+//Reporte Lista Inscritos
+Route::get('/home/listacon', 'UserinController@listacon')->name('lista.con');
+//Reporte Lista Inscritos
+Route::get('/home/listacom', 'UserinController@listacom')->name('lista.com');
+//Reporte Lista Inscritos
+Route::get('/home/listacat', 'UserinController@listacat')->name('lista.cat');
+//Reporte Lista Inscritos
+Route::get('/home/listamat', 'UserinController@listamat')->name('lista.mat');
+
+
 //Reporte Matrimonio
 Route::get('/home/{m}/reportemat', 'UserinController@reportemat')->name('reporte.mat');
 //reporte bautizo
