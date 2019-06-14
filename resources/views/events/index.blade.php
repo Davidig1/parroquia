@@ -79,7 +79,7 @@
                       <td>{{$events->start_date}}</td>
                       <td>{{$events->end_date}}</td>
                       <td>
-                          <a href="#" class="btn btn-info btn-circle">
+                          <a href="{{ route('events.view',['event' => $events ])}}" class="btn btn-info btn-circle">
                             <i class="fas fa-info-circle"></i>
                           </a>
                       </td>

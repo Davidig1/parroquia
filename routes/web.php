@@ -39,7 +39,8 @@ Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/home/eventos', 'EventController@index')->name('events.index');
 Route::post('/home/eventos/crear', 'EventController@create')->name('events.create');
 Route::get('/home/eventos/eliminar/{event}', 'EventController@delete')->name('events.delete');
-route::post('/home/eventos/reporte', 'EventController@report')->name('events.report');
+Route::post('/home/eventos/reporte', 'EventController@report')->name('events.report');
+Route::get('/home/eventos/{event}', 'EventController@view')->name('events.view');
 
 
 //Inscripcion sacramentos y requisitos

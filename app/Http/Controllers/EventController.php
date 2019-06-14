@@ -65,5 +65,11 @@ class EventController extends Controller
         $pdf->loadHTML($view);
         return $pdf->download('reporte');
     }
+
+    public function view(Event $event)
+    {   
+        $event = Event::find($event->id);
+        return view('events.view', compact('event'));
+    }
 }
 
