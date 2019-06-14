@@ -57,17 +57,6 @@ class EventController extends Controller
          $start = Carbon::createFromFormat('Y-m-d', $request->start_date_report);
          $end = Carbon::createFromFormat('Y-m-d', $request->end_date_report);
 
-        // foreach ($events as $data) {
-        //      $s = Carbon::createFromFormat('Y-m-d H:i:s', $data->start_date);
-        //      $e = Carbon::createFromFormat('Y-m-d H:i:s', $data->end_date);
-        //      if ( ($s >= $start) && ($e <= $end) ) {
-                 
-        //         echo $data;
-
-        //      }
-
-        //  }
-
 
         $events = DB::table('events')->whereBetween('start_date',[$start,$end])->get();
 
