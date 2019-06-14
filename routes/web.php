@@ -50,6 +50,7 @@ Route::post('/home/crearconfirmacion', 'UserinController@crearcon')->name('confi
 Route::post('/home/crearmatrimonio', 'UserinController@crearmat')->name('matrimonio.crear');
 
 
+
 //Lista Inscritos
 Route::get('/home/lista', 'UserinController@lista')->name('lista.index');
 
