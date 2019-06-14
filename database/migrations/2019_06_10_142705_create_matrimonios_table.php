@@ -15,8 +15,18 @@ class CreateMatrimoniosTable extends Migration
     {
         Schema::create('matrimonios', function (Blueprint $table) {
             $table->increments('id');
-            $table->integer('novio_id')->unsigned();
-            $table->integer('novia_id')->unsigned();
+            $table->string('nombreno');
+            $table->string('nombrena');
+            $table->string('appno');
+            $table->string('appna');
+            $table->string('apmno');
+            $table->string('apmna');
+            $table->string('cino')->unique();
+            $table->string('cina')->unique();
+            $table->date('fxno');
+            $table->date('fxna');
+            $table->string('emailno');
+            $table->string('emailna');
             $table->integer('fcnno');
             $table->integer('fcnna');
             $table->integer('focino');
@@ -31,10 +41,11 @@ class CreateMatrimoniosTable extends Migration
             $table->integer('tfcina');
             $table->integer('pfcino');
             $table->integer('pfcina');
+            $table->date('fxm');
             $table->timestamps();
 
-             $table->foreign('novio_id')->references('id')->on('userins');
-             $table->foreign('novia_id')->references('id')->on('userins');
+            /* $table->foreign('novio_id')->references('id')->on('userins');
+             $table->foreign('novia_id')->references('id')->on('userins');*/
         });
     }
 

@@ -57,4 +57,13 @@ Route::get('/home/lista', 'UserinController@lista')->name('lista.index');
 
 //Reporte Lista Inscritos
 Route::get('/home/listareporte', 'UserinController@listareporte')->name('lista.reporte');
-
+//Reporte Matrimonio
+Route::get('/home/{m}/reportemat', 'UserinController@reportemat')->name('reporte.mat');
+//reporte bautizo
+Route::get('/home/{a}/reportebau', 'UserinController@reportebau')->name('reporte.bau');
+//reporte confirmacion
+Route::get('/home/{a}/reportecon', 'UserinController@reportecon')->name('reporte.con');
+//reporte comunion
+Route::get('/home/{a}/reportecom', 'UserinController@reportecom')->name('reporte.com');
+//reporte catequesis
+Route::get('/home/{a}/reportecat', 'UserinController@reportecat')->name('reporte.cat');

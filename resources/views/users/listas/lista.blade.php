@@ -34,7 +34,7 @@
 				<td>{{$a->userins->app}}</td>
 				<td>{{$a->userins->apm}}</td>
 				<td></td>
-				<td></td>
+				<td><a href="{{route ('reporte.bau', $a)}}">Descargar Certificado</a></td>
 			</tr>
 			@endforeach
 			
@@ -63,7 +63,7 @@
 				<td>{{$a->userins->app}}</td>
 				<td>{{$a->userins->apm}}</td>
 				<td></td>
-				<td></td>
+				<td><a href="{{route ('reporte.con', $a)}}">Descargar Certificado</a></td>
 			</tr>
 			@endforeach
 			
@@ -91,7 +91,7 @@
 				<td>{{$a->userins->app}}</td>
 				<td>{{$a->userins->apm}}</td>
 				<td></td>
-				<td></td>
+				<td><a href="{{route ('reporte.com', $a)}}">Descargar Certificado</a></td>
 			</tr>
 			@endforeach
 			
@@ -99,7 +99,7 @@
 	</table>
   </div>
   <div class="tab-pane fade" id="nav-catequesis" role="tabpanel" aria-labelledby="nav-profile-tab">
-  	lista de confirmacion
+  	lista de catequesis
   	<table class="table">
 		<thead>
 			<tr>
@@ -120,7 +120,40 @@
 				<td>{{$a->userins->app}}</td>
 				<td>{{$a->userins->apm}}</td>
 				<td></td>
-				<td></td>
+				<td><a href="{{route ('reporte.cat', $a)}}">Descargar Certificado</a></td>
+			</tr>
+			@endforeach
+		</tbody>
+	</table>
+  </div>
+
+  <div class="tab-pane fade" id="nav-matrimonio" role="tabpanel" aria-labelledby="nav-profile-tab">
+  	Lista de Matrimonio
+  	<table class="table">
+
+		<thead>
+			<tr>
+				<th scope="col">ID</th>
+				<th scope="col">Nombre Novio</th>
+				<th scope="col">Apellido Paterno Novio</th>
+				<th scope="col">Apellido Materno Novio</th>
+				<th scope="col">Nombre Novia</th>
+				<th scope="col">Apellido Paterno Novio</th>
+				<th scope="col">Apellido Materno Novia</th>
+				<th scope="col"></th>
+			</tr>
+		</thead>
+		<tbody>
+			@foreach($mat as $m)
+			<tr>
+				<th scope="row">{{$m->id}}</th>
+				<td>{{$m->nombreno}}</td>
+				<td>{{$m->appno}}</td>
+				<td>{{$m->apmno}}</td>
+				<td>{{$m->nombrena}}</td>
+				<td>{{$m->appna}}</td>
+				<td>{{$m->apmna}}</td>
+				<td><a href="{{route ('reporte.mat', $m)}}">Descargar Certificado</a></td>
 			</tr>
 			@endforeach
 		</tbody>

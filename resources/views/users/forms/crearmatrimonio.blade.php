@@ -33,13 +33,17 @@
 
           <div class="container">
             <div class="row">
-              <div class="col"><label for="inputCity">Ingrese sin espacios ni guiones: Oficialia, Libro, Partida, Folio</label>
-              <input type="text" class="form-control" id="inputCity" placeholder="Oficialia, Libro, Partida, Folio" name="cnno">
+              <div class="col">
+                <label for="inputCity">Numero de C.I.
+                </label>
+              <input type="text" class="form-control" id="inputCity" placeholder="Numero C.I." name="cino">
               <label for="inputCity">Fecha de Nacimiento</label>
               <input type="date" class="form-control" id="inputCity" name="fxno">
               </div>
-              <div class="col"><label for="inputCity">Ingrese sin espacios ni guiones: Oficialia, Libro, Partida, Folio</label>
-              <input type="text" class="form-control" id="inputCity" placeholder="Oficialia, Libro, Partida, Folio" name="cnna">
+              <div class="col">
+                <label for="inputCity">Numero de C.I.
+                </label>
+              <input type="text" class="form-control" id="inputCity" placeholder="Numero de C.I." name="cina">
               <label for="inputCity">Fecha de Nacimiento</label>
               <input type="date" class="form-control" id="inputCity" name="fxna">
               </div>
@@ -426,11 +430,31 @@
                       </div>
                     </fieldset>
                   </div>
-                  
                 </div>
               </div>
-      
 
+              <div class="container">
+                <div class="row">
+                  <div class="col">
+                    
+                    <div class="col"><label for="inputEmail4">Correo Novio</label>
+                      <input type="email" class="form-control" placeholder="ejemplo@correo.com" name="emailno">
+                    </div>
+  
+
+                  </div>
+                  <div class="col">
+                    
+
+                    <div class="col"><label for="inputEmail4">Correo Novia</label>
+                      <input type="email" class="form-control" placeholder="ejemplo@correo.com" name="emailna">
+                    </div>
+                     <label for="inputCity">Fecha de Nacimiento</label>
+              <input type="date" class="form-control" id="inputCity" name="fxm">
+
+                  </div>
+                </div>
+              </div>
           <div class="modal-footer">
             @include('events.crearevento')
             <button type="button" class="btn btn-warning" data-dismiss="modal">Cancelar</button>

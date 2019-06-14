@@ -12,7 +12,7 @@ class Userin extends Model
     	return $this->hasMany('App\Requisito');
     }
 
-    public function matrimonios(){
-    	return $this->hasMany('App\Matrimonio');
-    }
+    /*public function matrimonios(){
+    	return $this->belongsToMany('App\Userin', 'matrimonios', 'id', 'id')->withPivot('novio_id', 'novia_id');
+    }*/
 }
